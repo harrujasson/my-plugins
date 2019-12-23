@@ -1,0 +1,479 @@
+.headrow{
+    position: relative;
+    display: flex;
+    background: teal;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    line-height:18px!important;
+    }
+.content-row{
+        width:100%;      
+        color:#fff;
+        text-align:center;
+        display: table;
+        text-transform: uppercase;
+        margin-bottom:10px;
+        border-radius: 6px 6px 6px 6px;
+        position:relative;
+        box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+        float: left;
+        margin-bottom: 20px;
+    }   
+.content-row .rank,
+.content-row .rank > div{
+   position:relative;
+   z-index:0;
+}
+.rank,.headrow div:first-child{
+     width:8% !important;
+}
+.rating-btn{
+    width: 46%;
+    margin: 0 auto;
+    background: #e83b35;
+    margin-top: 21px;
+    padding: 7px;
+}
+.small-hide{
+    line-height: 7px;
+}
+.rating-btn span{
+    color:#fff;
+}
+.rank span{
+    
+    /*max-width: 100%;*/
+    position: absolute;
+    top: 47%;
+    left: -130px;
+    color: #fff;
+    font-size: 52px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+}
+        
+.rank img{
+    position: absolute;
+    top: -24px;
+    left: 44px;
+    max-width: 81px;
+    z-index: 99;
+}
+.content-row .rank div{
+    width: 0;
+    height: 0;
+    border-top: 80px solid transparent;
+    border-left: 100px solid #863a3a;
+    border-bottom: 80px solid transparent;
+    z-index: 1;
+}
+
+.casino img{
+    max-width: 241px;
+/*    margin-top:10px;*/
+    margin-bottom:10px;
+}
+.casino img:hover{
+    webkit-transform: scale(2,3);
+    transform: scale(1.1,1.1);
+}
+p,span,a{
+    color:#000;
+    margin-bottom: 0px;
+}
+.dansk-licens img, video {
+    height: auto;
+    max-width: 57%;
+}
+.bono span, .rating span{
+    margin-top:6px;
+    white-space:pre-line;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+span.text-box{
+    margin-top:7px;
+    display:inline-block;
+    background: transparent!important;
+    color:#bbb!important;
+    font-size:7px!important;
+    line-height: 10px;
+}
+.bono a.pela {
+    background: #65C733 !important;
+    color: #fff !important;
+    padding: 18px 5px 18px 5px !important;
+    text-transform: uppercase !important;
+    line-height: 1em !important;
+    font-weight: 600 !important;
+    display: block !important;
+    text-align: center !important;
+    margin-top: 0 !important;
+    border-radius: 2px !important;
+    width: 90% !important;
+    margin: 0 auto !important;
+   
+}
+.site-footer {
+    background: #B91A15;
+    border-top: 1px solid #B91A15 !important;
+}
+.ratebox{
+    margin:0 auto;
+}
+.bono p{
+    margin-top:6px;
+}
+@media only screen and (min-width: 900px) and (max-width: 1440px) {
+    .bono a.pela{
+        width:100% !important;
+    }
+    .rank p, .casino p, .dansk-licens p, .bono p, .rating p{
+        font-size:14px;
+    }  
+    .rank img {
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    max-width: 50px;
+   }
+   
+   .headrow{
+       font-size: 13px;
+   }
+   .casino img{
+       max-width:145px;
+   }
+   .rating-btn{
+       width:85%;
+   }  
+}
+@media only screen and (min-width: 900px){
+    .rank, .casino, .dansk-licens, .bono, .rating,.headrow div {
+        width: 23%;
+        display: table-cell;
+        float: none;
+        vertical-align: top;
+
+    }
+    .large-hide{
+       display:none;
+   }
+}
+@media only screen and (max-width: 899px) {
+    .content-row{
+        display:block;
+    }
+    .rank{
+        width:25% !important;
+        float:left;
+        position:absolute !important;
+    }
+    .casino{
+        width:100% !important;
+        float:left;
+    }
+    
+    .dansk-licens, .bono, .rating{
+        width:33vw;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .bono{ /** add by jags **/
+        vertical-align: top;
+    }
+    .rank,.casino{
+        
+    }
+    .small-hide{
+        display:none;
+    }
+    .bono a.pela{
+        width:90% !important;
+    }
+    .casino img{
+        max-width:80% !important;
+        padding-top: 10px;
+       
+        max-height: 93px;
+    }
+    .medium-back {
+        background: #fff;
+        padding-bottom: 20px;
+        margin: 20px 0;
+        min-height: 160px;
+        height: auto;
+        width: 100%;
+        float: left;
+    }
+    .content-row{
+        padding-bottom: 12px;
+    }
+    .rating-btn{
+        width:85%;
+    }
+   
+}
+@media only screen and (max-width: 699px) {
+    .xs-hide{
+        display: none;
+    }
+    .bono,.rating{
+        width:50vw;
+    }
+    .rating-btn {
+    margin: 0 auto;
+    background: #e83b35;
+    padding: 13px 0;
+    }
+    #main .wrap{
+        background:transparent !important
+    }
+    .rank span {
+/*        height: auto;
+        max-width: 100%;
+        position: absolute;
+        top: 25px;
+        left: 12px;
+        color: #fff;*/
+        font-size: 32px;
+    }
+    .xs-image-licence{        
+        max-height:52px;
+        margin: 10px;
+    }
+.content-row .rank div {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-left: 66px solid #863a3a;
+    border-bottom: 60px solid transparent;
+    z-index: 1;
+}
+.rank img{
+    max-width:60px;
+    left: 9px;
+}
+.rating img{
+    max-width:50%;
+}
+
+}
+@media only screen and (min-width: 699px) and (max-width: 1023px) {
+    .medium-hide{
+        display:none;
+    }
+    .headrow{
+        font-size: 13px;
+    }
+}
+
+.content-row:nth-child(even){
+      background-color: antiquewhite;
+    }
+.content-row:nth-child(odd){
+    background: mistyrose; 
+}
+.raterater-bg-layer { color: #95a5a6; }
+
+.raterater-hover-layer { color: #f1c40f; }
+
+.raterater-hover-layer.rated { color: #f1c40f; }
+
+.raterater-rating-layer { color: #f1c40f; }
+
+.raterater-outline-layer { color: transparent; }
+
+
+/**** ribbon ****/
+
+ /* common */
+    .ribbon {
+        width: 120px;
+        height: 150px;
+        overflow: hidden;
+        position: absolute;
+        z-index:1;
+    }
+
+    .ribbon::before,
+    .ribbon::after {
+        position: absolute;
+        z-index: -1;
+        content: '';
+        display: block;
+        border: 5px solid #2980b9;
+    }
+
+    .ribbon .ribbon_text {
+        position: absolute;
+        display: block;
+        width: 225px;
+        padding: 15px 0;
+        background-color: #3498db;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+        color: #fff;
+        font: 700 18px/1 'Lato', sans-serif;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    /* top left*/
+    .ribbon {
+        top: -10px;
+        left: -10px;
+    }
+
+    .ribbon::before,
+    .ribbon::after {
+        border-top-color: transparent;
+        border-left-color: transparent;
+    }
+
+    .ribbon::before {
+        top: 0;
+        right: 7px;
+    }
+
+    .ribbon::after {
+        bottom: 38px;
+        left: 0;
+    }
+
+    .ribbon .ribbon_text {
+        right: -25px;
+        top: 30px;
+        transform: rotate(-45deg);
+    }
+    
+    .ribbon .ribbon_text span{
+        position:relative;
+        left:14px;
+    }
+
+
+/**** ribbon ****/
+
+.popOverHolder{
+    position: absolute;
+    z-index: 9;
+    bottom: 67px;
+    left: 12px;
+    width: 90%;
+    background: #fff;
+    border-radius: 20px;
+    display:none;
+}
+  
+  .popOver{
+    position:relative;
+    top: -13px;
+    text-transform:capitalize;
+  }
+  
+  .popOver::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+    position: absolute;
+    bottom: -23px;
+    left: -14px;
+  }
+  
+  .iconsSize{
+      margin-bottom:20px;
+  }
+  
+  .iconsSize img{
+      width:20px;
+      margin-right:20px;
+      margin-left:10px;
+  }
+  
+  .content_wrap{
+      float:left;
+      width:100%;
+  }
+   .content_wrap:first-child {
+        display: table;
+    }
+  .bottom_text{
+    width: 77%;
+    margin: auto;
+    max-width: 90%;
+    text-align: justify;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .bottom_text a:focus {
+    
+    outline: none;
+}
+.p-b-20 {
+    padding-bottom: 20px !important;
+}
+
+@media screen and (max-width:992px){
+    .content_wrap{
+        display: initial!important;
+    }
+/*    .rank span {
+        left: -26%;
+    }*/
+}
+
+@media only screen and (max-width: 900px){
+    .rank span{
+       top: -35px !important;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .rank span {
+        top: -27px !important;
+        left: -85px;
+    }
+}
+
+.thirstylink,
+.logoHdng{
+    line-height: 20px!important;
+}
+
+.thirstylink p,
+.logoHdng p{
+    padding: 0px 20px;
+    width: 250px;
+    max-width: 90%;
+    margin: 0px auto;
+}
+.pb-5 {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:576px){
+.iconsSize {
+    display: none;
+}
+}
+
+.entry-content a img{
+    transition:0.5s ease;
+}
+/*Updated at 11/12/2019*/

@@ -1,0 +1,49 @@
+.bono .text-box,.rating .text-box{
+    background: #fff;
+    color: #ddd;
+    font-size: 8px;
+    width: fit-content;
+    padding: 0px 1px;
+}
+.pay-icon{
+    width: 80px;
+    margin: 5px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+/*    bottom:0;*/
+    top:75px;
+}
+@media only screen and (max-width: 1023px) {
+    .pay-icon{
+        position:unset !important;
+    }
+}
+.dansk-licens.xs-hide{
+    position: relative;
+}
+.w-back{
+    width:100%;
+    float:left;
+}
+.abs{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+.abs-ipad{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: fit-content;
+    margin: auto;
+}
+.p-b-40{
+    padding-bottom:40px !important;
+}
+.p-t-10{
+    padding-top:10px !important;
+}
