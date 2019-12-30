@@ -1,6 +1,6 @@
 <?php
 
-Class Wp_Common{
+trait MWPL_Theme_Common{
     
     function __construct() {
         add_shortcode( 'rooms', array($this,'roominformation')  );
@@ -8,7 +8,13 @@ Class Wp_Common{
         add_shortcode( 'about-us', array($this,'about_us_information')  );
         
     }
-    
+    function load_view($file,$data = array()){       
+        $var=array();        
+        if(!empty($data)){
+            extract($data);
+        }       
+        require  MWPL_PARTIALS.$file.'.php';
+    }
     function getMetavalue($id,$key){
         return get_post_meta( $id, $key,  TRUE );     
     }
@@ -64,16 +70,7 @@ Class Wp_Common{
         $values=get_post_meta( $postid, $meta_name,  TRUE );
         return $values;
     }
-    function check_event_date_same($start_event, $end_event ){
-        $Start_date = date('d-m-Y', strtotime($start_event));
-        $end_date = date('d-m-Y', strtotime($end_event));
-        $check = $this->dateManuplationGet($Start_date, $end_date,'equality');
-        if($check == 0){
-            return date('l jS F', strtotime($start_event));
-        }else{
-            return date('jS F', strtotime($start_event)).' - '.date('jS F', strtotime($end_date));
-        }
-    }
+   
     
     function dateManuplationGet($start,$end,$return=""){
         
@@ -113,35 +110,6 @@ Class Wp_Common{
                 return $interval;
             }        
     }
-    
-    function roominformation(){
-        ob_start();
-        $rooms = $this->getPost('room'); 
-        include get_template_directory() . '/inc/partials/room.php';
-        return ob_get_clean();
-    }
-    function eventinformation(){
-        ob_start();
-        $rooms = $this->getPost('room'); 
-        include get_template_directory() . '/inc/partials/events.php';
-        return ob_get_clean();
-    }
-    function about_us_information(){
-        ob_start();
-        $about = $this->getPost('about_us');        
-        include get_template_directory() . '/inc/partials/about_us.php';
-        return ob_get_clean();
-    }
-    
-    function about_us_information_plugin($id=0){       
-        $post_information = get_post($id);           
-        include get_template_directory() . '/inc/partials/about_us.php';
-    }
-    function eat_information_plugin(){
-        $post_information = $this->getPost("eat");       
-        include get_template_directory() . '/inc/partials/eat.php';
-    }
-    
 }
-$cpt_obj = new Wp_Common();
+
 
