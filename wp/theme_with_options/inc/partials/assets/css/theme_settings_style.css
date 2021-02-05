@@ -1,0 +1,935 @@
+/***** common css *****/
+/***** common css *****/
+/***** common css *****/
+/***** common css *****/
+
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+.imgthumb {
+    max-width: 150px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid #bbb;
+}
+.hidden {
+    display: none !important;
+}
+.mwpl-fluid {
+    width: 100%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    font-size: 14px;
+    font-size: 14px;
+    margin: 0px;
+    color: #161616;
+}
+
+.mwpl-fluid a {
+    text-decoration: none;
+}
+
+.inner {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.mwpl-fluid .left {
+    width: 18%;
+    float: left;
+    position: relative;
+}
+
+.mwpl-fluid .right {
+    width: 75%;
+    float: left;
+    position: relative;
+}
+
+.mwpl-fluid .hdr .left h5 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px 15px 15px 95px;
+    margin: 0px;
+}
+
+.mwpl-fluid .hdr .left h5 i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 32px;
+}
+
+.mwpl-fluid .hdr {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+}
+
+.mwpl-fluid .hdr .left {
+    background: #4cb2e1;
+}
+
+.mwpl-fluid .hdr .right {
+    background: #252930;
+}
+
+.mwpl-fluid .hdr .right .heading {
+    width: 60%;
+    float: left;
+    height: 100%;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.mwpl-fluid .hdr .right .buttons {
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+
+.mwpl-fluid .hdr .right .heading h3 {
+    font-size: 28px;
+    color: #fff;
+    margin: 0px;
+    width: 100%;
+    padding-left: 25px;
+}
+
+.mwpl-fluid .hdr .right .buttons ul {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: right;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+}
+
+.mwpl-fluid .hdr .right .buttons ul li {
+    width: 90px;
+    height: 100%;
+}
+
+.mwpl-fluid .hdr .right .buttons ul li button {
+    display: block;
+    color: #fff;
+    height: 100%;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    width: 100%;
+    border: 0px;
+    cursor: pointer;
+}
+
+.mwpl-fluid .hdr .right .buttons ul li button span {
+    padding-left: 7px;
+}
+
+.mwpl-fluid .hdr .right .buttons ul li .save {
+    background: #356555;
+}
+
+.mwpl-fluid .hdr .right .buttons ul li .reset {
+    background: #733735;
+}
+
+/*** tabs ****/
+/*** tabs ****/
+/*** tabs ****/
+/*** tabs ****/
+
+.mwpl-fluid .mwpl-tab-box .left {
+    background: #252930;
+}
+
+.mwpl-fluid .mwpl-tab-box .left ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mwpl-fluid .mwpl-tab-box .left ul li {
+    width: 100%;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.mwpl-fluid .mwpl-tab-box .left ul li a,
+.mwpl-fluid .mwpl-tab-box .left ul li a:hover,
+.mwpl-fluid .mwpl-tab-box .left ul li a:focus {
+    width: 100%;
+    border-top: 1px solid #16181c;
+    color: #fff;
+    display: inline-block;
+    padding: 0px 12px 0px 0px;
+    text-decoration: none;
+    transition: 0.5s ease;
+    outline: none;
+}
+
+
+.mwpl-fluid .mwpl-tab-box .left ul li.active a,
+.mwpl-fluid .mwpl-tab-box .left ul li a:hover {
+    background-color: #394049;
+}
+
+.mwpl-fluid .mwpl-tab-box .left ul li a i,
+.mwpl-fluid .mwpl-tab-box .left ul li a span {
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+}
+
+.mwpl-fluid .mwpl-tab-box .left ul li a span {
+    padding-left: 10px;
+}
+
+.mwpl-fluid .mwpl-tab-box .left ul li a i {
+    padding: 0px 10px;
+    border-right: 1px solid #16181c;
+    color: #4cb2e1;
+    width: 28px;
+}
+
+.mwpl-fluid .mwpl-tab-box .left ul li:last-child a {
+    border-bottom: 1px solid #16181c;
+}
+
+.mwpl-fluid .mwpl-tab-box .right > div {
+    padding: 20px 0 20px 20px;
+    float: left;
+    width: 100%;
+}
+
+.mwpl-fluid .mwpl-tab-box .right .inner-box {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px 15px;
+    background: #fff;
+    float: left;
+    width: 100%;
+}
+
+.mwpl-fluid .mwpl-tab-box .right .inner-box:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+
+.mwpl-tab-box .mwpl-card-header {
+    background: #4cb2e1;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.mwpl-tab-box .mwpl-card-header h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color:#fff;
+    font-weight: 400;
+}
+
+.mwpl-tab-box .mwpl-card-header p {
+    font-size: 14px;
+    margin: 0px;
+    color: #808080;
+}
+
+.mwpl-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mwpl-form-row:last-child {
+    border: 0px;
+}
+
+.mwpl-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+}
+
+.mwpl-align-center {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mwpl-saving-btn {
+    padding: 25px;
+    margin-top: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.mwpl-relative-position{
+    position: relative;
+}
+
+/***** form classes *****/
+/***** form classes *****/
+/***** form classes *****/
+/***** form classes *****/
+
+/*** columns ****/
+
+.ap-col-left {
+    width: 40%;
+}
+
+.ap-col-right {
+    width: 60%;
+}
+
+/*** input field ****/
+/*** input field ****/
+/*** input field ****/
+/*** input field ****/
+
+.ap-input-box {
+    padding-left: 10px;
+    float: left;
+    width: auto;
+}
+
+.ap-input,
+.ap-input:hover,
+.ap-input:focus {
+    width: 100%;
+    float: left;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+    padding: 0px 15px !important;
+    color: #161616;
+}
+
+/**** textarea ****/
+/**** textarea ****/
+/**** textarea ****/
+/**** textarea ****/
+
+.ap-textarea,
+.ap-textarea:hover,
+.ap-textarea:focus {
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+    padding: 15px 15px;
+    color: #161616;
+}
+
+
+/*** label ****/
+/*** label ****/
+/*** label ****/
+/*** label ****/
+
+.ap-label {
+    font-size: 13px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+/*** select 2 ****/
+/*** select 2 ****/
+/*** select 2 ****/
+/*** select 2 ****/
+
+.ap-input-box .select2 {
+    width: 100% !important;
+}
+
+.ap-input-box .select2-container--default .select2-selection--single {
+    line-height: 40px;
+    height: 40px;
+    color: #161616;
+    width: 100%;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    font-size: 14px;
+    outline: none;
+    padding: 0px 15px;
+    color: #161616;
+}
+
+.ap-input-box .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 40px;
+    width: 100%;
+    padding: 0px;
+    color: #161616;
+}
+
+.ap-input-box .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 40px;
+}
+
+.ap-input-box .select2-selection__clear {
+    display: none;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #252930;
+}
+
+/***** radio btn *****/
+/***** radio btn *****/
+/***** radio btn *****/
+/***** radio btn *****/
+
+/* The container */
+.ap__container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+}
+
+/* Hide the browser's default checkbox */
+.ap__container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.ap__checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.ap__container:hover input ~ .ap__checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.ap__container input:checked ~ .ap__checkmark {
+    background-color: #4cb2e1;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.ap__checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.ap__container input:checked ~ .ap__checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.ap__container .ap__checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2.5px 2.5px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/***** checkboxes *****/
+/***** checkboxes *****/
+/***** checkboxes *****/
+/***** checkboxes *****/
+
+/* The container */
+.ap__container_radio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+}
+
+/* Hide the browser's default checkbox */
+.ap__container_radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.ap__checkmark_radio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.ap__container_radio:hover input ~ .ap__checkmark_radio {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.ap__container_radio input:checked ~ .ap__checkmark_radio {
+    background-color: #4cb2e1;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.ap__checkmark_radio:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.ap__container_radio input:checked ~ .ap__checkmark_radio:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.ap__container_radio .ap__checkmark_radio:after {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+/**** buttons ****/
+/**** buttons ****/
+/**** buttons ****/
+/**** buttons ****/
+/**** buttons ****/
+
+.ap-btn {
+    background-color: #000;
+    border: 1px solid #000;
+    padding: 10px 25px;
+    min-width: 150px;
+    text-align: center;
+    max-width: 100%;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+/*    margin: 5px 5px;*/
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.ap-btn-danger {
+    background-color: #d41d01;
+    border: 1px solid #d41d01;
+}
+
+.ap-btn-primary {
+    background-color: #161616;
+    border: 1px solid #161616;
+}
+
+.ap-btn-warning {
+    background-color: #f58700;
+    border: 1px solid #f58700;
+}
+
+.ap-btn-success {
+    background-color: #336101;
+    border: 1px solid #336101;
+}
+
+.ap-btn-danger:hover {
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgb(212 29 1 / 0.2);
+    color: #d41d01;
+}
+
+.ap-btn-primary:hover {
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(22, 22, 22, 0.2);
+    color: #161616;
+}
+
+.ap-btn-warning:hover {
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(245, 135, 0, 0.2);
+    color: #f58700;
+}
+
+.ap-btn-success:hover {
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(51, 97, 1, 0.2);
+    color: #336101;
+}
+
+.ap-btn-md {
+    padding: 14px 25px;
+    font-size: 15px;
+}
+
+.ap-btn-lg {
+    padding: 18px 25px;
+    font-size: 17px;
+}
+
+/***** color picker *****/
+/***** color picker *****/
+/***** color picker *****/
+/***** color picker *****/
+
+.ap-colorDisplay {
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0px 15px 0px 85px;
+    font-weight: bold;
+    position: relative;
+}
+
+.ap-input-color {
+    position: absolute;
+    left: 11px;
+    top: 0px;
+    height: 40px;
+    z-index: 99;
+}
+
+
+/**** widths ****/
+/**** widths ****/
+/**** widths ****/
+/**** widths ****/
+
+.ap-w-25 {
+    width: 25% !important;
+}
+
+.ap-w-50 {
+    width: 50% !important;
+}
+
+.ap-w-75 {
+    width: 75% !important;
+}
+
+.ap-w-100 {
+    width: 100% !important;
+}
+
+
+
+/**** media queries ****/
+/**** media queries ****/
+/**** media queries ****/
+/**** media queries ****/
+
+@media screen and (max-width:1200px) {
+
+    .mwpl-fluid .hdr .left h5 {
+        font-size: 22px;
+        padding: 15px 15px 15px 80px;
+    }
+
+    .mwpl-fluid .hdr .right .heading h3 {
+        font-size: 24px;
+    }
+
+    .mwpl-tab-box .mwpl-card-header h3 {
+        font-size: 22px;
+    }
+
+    .mwpl-tab-box .mwpl-card-header p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .mwpl-fluid .hdr .left h5 {
+        font-size: 20px;
+        padding: 15px 15px 15px 70px;
+    }
+
+    .mwpl-fluid .hdr .right .heading h3 {
+        font-size: 22px;
+    }
+
+    .mwpl-tab-box .mwpl-card-header h3 {
+        font-size: 20px;
+    }
+
+    .mwpl-tab-box .mwpl-card-header p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .ap-col-left,
+    .ap-col-right {
+        width: 100%;
+    }
+
+    .ap-input-box:first-child {
+        padding-left: 0px;
+    }
+
+    .mwpl-form-row .mwpl-form-group {
+        margin-bottom: 20px;
+    }
+
+    .mwpl-fluid .hdr .left h5 {
+        font-size: 14px;
+        padding: 15px 15px 15px 55px;
+    }
+
+    .mwpl-fluid .hdr .left h5 i {
+        font-size: 16px;
+    }
+
+    .mwpl-fluid .hdr .right .heading {
+        width: 40%;
+    }
+
+    .mwpl-fluid .hdr .right .heading h3 {
+        font-size: 15px;
+    }
+
+    .mwpl-fluid .hdr .right .buttons {
+        width: 60%;
+    }
+
+    .mwpl-fluid .mwpl-tab-box .left {
+        background: #252930;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .mwpl-fluid .mwpl-tab-box .left ul li {
+        width: calc(100% / 4);
+    }
+
+    .mwpl-fluid .mwpl-tab-box .left ul li a {
+        border-bottom: 1px solid #16181c
+    }
+
+    .mwpl-fluid .mwpl-tab-box .left ul li:nth-child(n+5) a {
+        border-bottom: 0px;
+        border-top: 0px;
+    }
+
+    .mwpl-fluid .mwpl-tab-box .right {
+        width: 100%;
+    }
+
+    .mwpl-fluid .mwpl-tab-box .right > div {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .mwpl-fluid .mwpl-tab-box .left ul li {
+        width: calc(100% / 5);
+    }
+
+    .mwpl-fluid .mwpl-tab-box .left ul li a {
+        border-bottom: 1px solid #16181c;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .mwpl-fluid .mwpl-tab-box .left ul li a span {
+        display: none;
+    }
+
+    .mwpl-fluid .mwpl-tab-box .left ul li a i {
+        border: 0px;
+    }
+
+    .mwpl-fluid .mwpl-tab-box .left ul li:nth-child(5) a {
+        border-bottom: 1px solid #16181c;
+    }
+
+    .mwpl-fluid .mwpl-tab-box .left ul li:nth-child(n+6) a {
+        border-bottom: 0px;
+        border-top: 0px;
+    }
+
+    .mwpl-fluid .hdr .left h5 i {
+        position: absolute;
+        left: 12px;
+    }
+
+    .mwpl-fluid .hdr .left h5 {
+        padding: 15px 15px 15px 45px;
+    }
+
+    .mwpl-fluid .hdr .right .heading h3 {
+        font-size: 13px;
+    }
+
+    .mwpl-fluid .hdr .right {
+        background: #252930;
+        width: 100%;
+        height: 75px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .mwpl-fluid .hdr .left {
+        width: 100%;
+    }
+
+    .mwpl-fluid .hdr .right .buttons ul li {
+        width: 80px;
+    }
+
+    .ap-mW-100 {
+        width: 100% !important;
+    }
+
+    .ap-input-box {
+        padding: 0px;
+        margin-top: 7px;
+    }
+
+    .ap-input-box .ap__container,
+    .ap-input-box .ap__container_radio {
+        margin-top: 7px;
+    }
+
+    .ap-btn {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px
+    }
+}
+.layout-loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(12 12 12 / 0.5);
+    z-index: 99999;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+}
+
+.layout-loading .loader {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 400px;;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+.smallbtn{
+    padding: 8px !important;
+    min-width: 15%;
+}
+.mwpl_container_group{
+    width: 100%; float: left; margin: 10px 0px;
+}
+.mwpl_addmore_footer_icons{
+    width: 100%;
+    float: left;
+    margin-bottom: 28px;
+    margin-top: 10px;
+}

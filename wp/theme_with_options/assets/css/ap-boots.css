@@ -1,0 +1,148 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+label{
+    display: inline-block;
+}
+
+.ap_form-control{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.ap_row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.ap_col-12,
+.ap_col-md-12,
+.ap_col-md-2,
+.ap_col-md-3,
+.ap_col-md-4,
+.ap_col-md-6,
+.ap_col-sm-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.ap_col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+}
+
+@media (min-width:576px) {
+    .ap_col-sm-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+}
+
+@media (min-width:768px) {
+    .ap_col-md-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%
+    }
+
+    .ap_col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%
+    }
+
+    .ap_col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%
+    }
+
+    .ap_col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+
+    .ap_col-md-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+}
+
+.ap_table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529
+}
+
+.ap_table td,
+.ap_table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6
+}
+
+.ap_form-group {
+    margin-bottom: 1rem
+}
+
+.ap_form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px
+}
+
+.ap_form-row > [class*=col-] {
+    padding-right: 5px;
+    padding-left: 5px
+}
+
+
+.ap_border-0 {
+    border: 0 !important
+}
+
+.ap_m-0 {
+    margin: 0 !important
+}
+
+.ap_mt-4 {
+    margin-top: 1.5rem !important
+}
+
+.ap_py-0 {
+    padding-top: 0 !important
+}
+
+.ap_py-0 {
+    padding-bottom: 0 !important
+}
+
+.ap_text-center {
+    text-align: center !important
+}
