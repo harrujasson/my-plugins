@@ -1,0 +1,110 @@
+.full-width{
+    width: 100%;
+}
+.mwpl_pannel {
+    width: 90%;
+    float: left;
+    margin: 16px;
+    clear: both;
+}
+.mwpl_pannel_heading {
+    background: #6c2eb9;
+    padding: 9px 1px;
+    color: #fff;
+    font-weight: 400;
+    width: 100%;
+    font-size: 16px;
+    float: left;
+}
+.mwpl_pannel_body {
+    border: 1px solid #6c2eb9;
+    float: left;
+    width: 100%;
+
+}
+.mwpl_container {
+    width: 95%;
+    float: left;
+    padding: 20px;
+}
+.mwpl_addMoreContainer {
+    margin: 10px 0px;
+}
+.m5{
+    margin: 10px;
+}
+.mwpl_addMoreContainer{
+    margin: 10px 0px;
+}
+
+.fieldsContainer {
+    margin: 10px 0px;
+    width: 100%;
+    float: left;
+    cursor: move;
+}
+.mwpl_w-40 {
+    width: 40%;
+    float: left;
+}
+.mwpl_w-20 {
+    width: 10%;
+    float: left;
+}
+input.mwpl_inputs {
+    width: 90% !important;
+    margin: 10px 5px;
+}
+.removeContainer {
+    margin: 15px 0px 0px 0px;
+}
+.mwpl_removeBtn {
+    padding: 5px;
+    background: #d61111db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.mwpl_removeBtn:hover{
+    text-decoration: none;
+    background: #d61111db;
+    color: #fff;
+}
+.mwpl_heading_text_container{
+    width: 30%;
+    float: left;
+}
+.mwpl_options_heading{
+    width: 20%;
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+}
+span.mwpl_heading {
+    padding: 5px;
+}
+
+.mwpl_visible_down {
+    display: none;
+    cursor: pointer;
+}
+.mwpl_visible_up{
+    cursor: pointer;
+}
+.mwpl_hide{
+    display: none;
+}
+.mwpl_float-left{
+    float:left;
+}
+.mwpl_float-right{
+    float:right;
+}
+.mwpl_outer_heading{
+    margin: 14px 0px 2px 18px;
+    border-bottom: 1px solid #ccc;
+    width: 50%;
+    padding-bottom: 5px;
+    font-size: 27px;
+    font-weight: 400;
+}

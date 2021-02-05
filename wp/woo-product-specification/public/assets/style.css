@@ -1,0 +1,210 @@
+.accordion {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 0px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-top: 1px solid #ccc;
+    margin: 0px 0px;
+}
+.product_details_icon:before{  
+    content: url('icons/document-svg.svg');
+    width: 20px;
+    display: inline-block;
+    float: left;
+    margin-right:6px;
+}
+.product_details_manuals_icon:before{
+    content: url('icons/installation-svg.svg');
+    width: 20px;
+    display: inline-block;
+    float: left;
+    margin-right:6px;
+}
+.product_details_warranty_icon:before{
+    content: url('icons/shield-svg.svg');
+    width: 20px;
+    display: inline-block;
+    float: left;
+    margin-right:6px;
+}
+.product_details_delivery_icon:before{
+    content: url('icons/delivery-menu-svg.svg');
+    width: 20px;
+    display: inline-block;
+    float: left;
+    margin-right:6px;
+}
+.product_details_specification_icon:before{
+    content: url('icons/info-svg.svg');
+    width: 20px;
+    display: inline-block;
+    float: left;
+    margin-right:6px;
+}
+
+.product_details_you_need_icon:before{
+    content: url('icons/clipboard-svg.svg');
+    width: 20px;
+    display: inline-block;
+    float: left;
+    margin-right:6px;
+}
+
+
+
+.active, .accordion:hover {
+  background-color: #fff;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #000;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: #000;
+}
+
+.mwpl_public_specification_container{
+    margin: 20px 0px;
+    padding: 10px 0px 0px;
+}
+.mwpl_public_content_container{
+    padding: 5px 10px;
+}
+
+.mwpl_table_public_specification {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0px 0 20px 0px;
+}
+.mwpl_table_public_specification tbody{
+    border: 1px solid #f1f1f1;
+    background-color: #fefefe;
+}
+.mwpl_table_public_specification th.labe{
+    padding-left: 15px;
+}
+.mwpl_table_public_specification >tfoot>tr>th{
+    padding: 5.5px 31.5px 10px 0;
+}
+.mwpl_table_public_specification tbody tr:nth-child(even) {
+    border-bottom: 0;
+    background-color: #f1f1f1;
+}
+table.mwpl_table_public_specification tr th, td {
+    padding: 5px 8px !important;
+    font-size: 12px;
+}
+
+.mwpl_grouped_container:before{
+    width: 13px;
+    content: " ";
+    background-image: url(../assets/icons/tick-icon-black.png);
+    position: absolute;
+    left: -16px;
+    height:20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 6px;
+}
+.mwpl_public_list_container ul li:before{
+     width: 13px;
+    content: " ";
+    background-image: url(../assets/icons/tick-icon-black.png);
+    position: absolute;
+    left: -16px;
+    height:20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 6px;
+}
+.mwpl_grouped_container span {
+    font-size: 11px;
+}
+.mwpl_public_list_container ul li{
+    font-size: 11px;
+    color: #000;
+}
+.mwpl_public_list_container ul {
+    margin-bottom: 0px !important;
+}
+.mwpl_grouped_container {
+    color: #000;
+}
+.mwpl_grouped_container span {
+    display: inline-block;
+}
+/*.mwpl_grouped {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}*/
+.mwpl_public_list_container{
+position: relative;
+left: 15px;
+}
+.mwpl-main-scetion {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 4px;
+}
+
+.mwpl_need_head {
+    font-size: 12px;
+    font-weight: 300;
+}
+.mwpl_need_select_all{
+    color:#000;
+    text-decoration: underline;
+}
+
+.mwpl_need_product_container {
+    width: 100%;
+    float: left;
+    margin: 10px 0px;
+}
+.mwpl_need_product_row {
+    width: 45%;
+    float: left;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+}
+.mwpl_need_product_title {
+    font-weight: bold;
+    font-size: 16px;
+}
+.mwpl_need_product_title a{
+    color:#000;
+    text-decoration: none;
+}
+.mwpl_need_product_price {
+    font-weight: 500;
+    margin: 5px 0px;
+    font-size: 15px;
+}
+.mwpl_need_product_cart label {
+    font-weight: 600;
+    cursor: pointer;
+}
