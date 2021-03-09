@@ -1,0 +1,65 @@
+[02-Mar-2021 07:37:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_token_save(), 0 passed in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 4 and exactly 1 expected in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php:6
+Stack trace:
+#0 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php(4): get_token_save()
+#1 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/common.php(4): include_once('/home1/maansmyb...')
+#2 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/index.php(1): include_once('/home1/maansmyb...')
+#3 {main}
+  thrown in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 6
+[02-Mar-2021 07:37:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_token_save(), 0 passed in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 4 and exactly 1 expected in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php:6
+Stack trace:
+#0 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php(4): get_token_save()
+#1 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/common.php(4): include_once('/home1/maansmyb...')
+#2 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/index.php(1): include_once('/home1/maansmyb...')
+#3 {main}
+  thrown in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 6
+[02-Mar-2021 07:41:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_token_save(), 0 passed in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 4 and exactly 1 expected in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php:6
+Stack trace:
+#0 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php(4): get_token_save()
+#1 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/common.php(4): include_once('/home1/maansmyb...')
+#2 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/index.php(1): include_once('/home1/maansmyb...')
+#3 {main}
+  thrown in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 6
+[02-Mar-2021 07:42:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_token_save(), 0 passed in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 4 and exactly 1 expected in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php:6
+Stack trace:
+#0 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php(4): get_token_save()
+#1 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/common.php(4): include_once('/home1/maansmyb...')
+#2 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/index.php(1): include_once('/home1/maansmyb...')
+#3 {main}
+  thrown in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 6
+[02-Mar-2021 07:42:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_token_save(), 0 passed in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 4 and exactly 1 expected in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php:6
+Stack trace:
+#0 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php(4): get_token_save()
+#1 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/common.php(4): include_once('/home1/maansmyb...')
+#2 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/index.php(6): include_once('/home1/maansmyb...')
+#3 {main}
+  thrown in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 6
+[02-Mar-2021 07:43:24 UTC] PHP Notice:  Undefined variable: conn in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 8
+[02-Mar-2021 07:43:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 8
+[02-Mar-2021 07:43:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 9
+[02-Mar-2021 07:43:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php:8) in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 10
+[02-Mar-2021 07:44:48 UTC] PHP Notice:  Undefined variable: conn in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 9
+[02-Mar-2021 07:44:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 9
+[02-Mar-2021 07:44:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 10
+[02-Mar-2021 07:44:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php:9) in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 11
+[02-Mar-2021 07:45:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_token_save(), 1 passed in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 5 and exactly 2 expected in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php:7
+Stack trace:
+#0 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php(5): get_token_save(Array)
+#1 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/common.php(4): include_once('/home1/maansmyb...')
+#2 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/index.php(6): include_once('/home1/maansmyb...')
+#3 {main}
+  thrown in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 7
+[02-Mar-2021 07:47:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_token_save(), 1 passed in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 5 and exactly 2 expected in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php:7
+Stack trace:
+#0 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php(5): get_token_save(Array)
+#1 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/common.php(4): include_once('/home1/maansmyb...')
+#2 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/index.php(6): include_once('/home1/maansmyb...')
+#3 {main}
+  thrown in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 7
+[02-Mar-2021 07:48:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_token_save(), 1 passed in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 5 and exactly 2 expected in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php:7
+Stack trace:
+#0 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php(5): get_token_save(Array)
+#1 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/common.php(4): include_once('/home1/maansmyb...')
+#2 /home1/maansmyb/shopifyapp.maansawebworld.com/specification/index.php(6): include_once('/home1/maansmyb...')
+#3 {main}
+  thrown in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 7
+[02-Mar-2021 07:48:47 UTC] PHP Recoverable fatal error:  Object of class mysqli could not be converted to string in /home1/maansmyb/shopifyapp.maansawebworld.com/specification/inc/helper.php on line 5
